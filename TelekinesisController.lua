@@ -1,14 +1,5 @@
---!strict
-
+-- Connected Discord-GitHub
 -- Telekinesis interaction system.
--- Aim at a part, grab it, and it follows the camera on a physics
--- dropping and throwing are all driven from here.
--- Held parts are blocked by walls instead of clipping through them, and are
--- dropped safely when the player respawns or the part is destroyed.
--- A glowing tether line shows the link between your character and the held part.
--- Pressing G freezes the held part in mid-air and cuts the link; frozen parts
--- float where they were left and can be grabbed again to unfreeze them.
---
 -- Controls:
 --   F            grab the part you're pointing at / drop the held part
 --   Left click   throw the held part
